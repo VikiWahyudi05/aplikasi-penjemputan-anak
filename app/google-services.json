@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "924599597978",
+    "firebase_url": "https://e-kos-f6317.firebaseio.com",
+    "project_id": "e-kos-f6317",
+    "storage_bucket": "e-kos-f6317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924599597978:android:15c0235feb0ef6247d1823",
+        "android_client_info": {
+          "package_name": "com.dicoding.picodiploma.e_carter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xYoMqjfHS1VTUo2jIQFAEoyzklsfIhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924599597978:android:b8fbe41040057b067d1823",
+        "android_client_info": {
+          "package_name": "com.e_carter.userroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xYoMqjfHS1VTUo2jIQFAEoyzklsfIhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924599597978:android:96499effd49de1507d1823",
+        "android_client_info": {
+          "package_name": "com.e_carter.userroles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2xYoMqjfHS1VTUo2jIQFAEoyzklsfIhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924599597978-cn2p0cpud8o61983h2l5cvqtmhi5gvpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

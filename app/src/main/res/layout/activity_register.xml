@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E9E8"
+    tools:context=".Register">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/header_register"
+        android:elevation="10dp"
+        android:theme="@style/ToolbarTheme" />
+
+    <ImageView
+        android:id="@+id/circleTes"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-50dp"
+        android:src="@drawable/circlet" />
+
+
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-87dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/circle" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/sp_rectangle_root"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="20dp"
+            android:id="@+id/registerName"
+            android:hint="Full Name"
+            android:backgroundTint="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <View
+            android:id="@+id/v_saparator"
+            android:background="#E8E9E8"
+            android:layout_below="@+id/registerName"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"/>
+
+        <EditText
+            android:id="@+id/registerEmail"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_baseline_alternate_email_24"
+            android:drawablePadding="20dp"
+            android:backgroundTint="#fff"
+            android:layout_below="@+id/v_saparator"
+            android:hint="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <View
+            android:id="@+id/v_saparator1"
+            android:background="#E8E9E8"
+            android:layout_below="@+id/registerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"/>
+
+        <EditText
+            android:id="@+id/registerPassword"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:backgroundTint="#fff"
+            android:layout_below="@+id/v_saparator1"
+            android:inputType="textPassword"
+            android:hint="********"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <View
+            android:id="@+id/v_saparator2"
+            android:background="#E8E9E8"
+            android:layout_below="@+id/registerPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"/>
+
+        <EditText
+            android:id="@+id/registerPhone"
+            android:paddingLeft="20dp"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="20dp"
+            android:backgroundTint="#fff"
+            android:layout_below="@+id/v_saparator2"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_marginRight="40dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_baseline_arrow_forward_24"
+        android:layout_width="wrap_content"
+        android:text="Register"
+        android:background="@drawable/sp_rectangle_root_login"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/rl_input"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/gotoLogin"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginTop="200dp"
+        android:text="Login"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sp_rectangle_login"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
